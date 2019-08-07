@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/05a8381518.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Register</title>
+</head>
+<body  class="register-form">
+  <h3 class="header-register">Stay in the know!</h3>
+  <h4 class="sign-up-register">Sign Up to get new arrivals, special sales and more.</h4>
+  <h4>
+    <form class="slot-form" action="register" method="POST">
+      <div class="slot-form-container">
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div class="slot-form-container" >
+        <label for="last-name">Surname : </label>
+        <input type="text" name="last-name" id="last-name">
+      </div>
+      <div class="slot-form-container">
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="age">
+      </div>
+      <div class="slot-form-container">
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="slot-form-container">
+        <label for="preference-bike"> Bike : </label>
+        <select name="preference-bike" id="preference-bike">
+          <option value="road">Road</option>
+          <option value="mountain">Mountain</option>
+          <option value="hybrid">Hybrid</option>
+          <option value="all">All of the above</option>
+        </select>
+      </div>
+      <button class="butn register-btn" type="submit">Submit!</button>
+    </form>
+  </h4>
+  
+</body>
+</html>
